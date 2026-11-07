@@ -1,0 +1,6 @@
+num1 = int(input("輸入單價:"))
+num2 = int(input("輸入幾杯:"))
+print("總價:",num1 * num2)
+num3 = int(input("輸入付款:"))
+print("找零:",num3 - (num1 * num2))
+print("一百元",(num3 - (num1 * num2)) // 100,"張,剩餘",(num3 - (num1 * num2)) % 100)
